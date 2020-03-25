@@ -1,0 +1,8 @@
+com\automationsite\utilities\Reporting.class
+com\automationsite\utilities\Wait.class
+com\automationsite\utilities\ReadConfig.class
+com\automationsite\testCases\TC_LoginTest_01.class
+com\automationsite\testCases\BaseClass.class
+com\automationsite\pageObjects\LoginPage.class
+com\automationsite\testCases\TC_LoginDDT_02.class
+com\automationsite\utilities\XLUtils.class

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MyFrameworkV1">
+
+	<listeners>
+		<listener class-name= "com.automationsite.utilities.Reporting" />
+	
+	</listeners>
+
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.automationsite.testCases.TC_LoginTest_01" />
+			<!--  class name="com.automationsite.testCases.TC_LoginDDT_02" />-->
+		</classes>
+
+	</test>
+
+</suite>
